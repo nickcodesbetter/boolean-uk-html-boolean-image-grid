@@ -1,0 +1,96 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(4, 300px);
+    /* border: 5px solid blue; */
+    height: 1000px;
+    /* min-width: 200px; */
+    grid-gap: 10px;
+
+  }
+  
+  .boxes {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+
+  }
+  
+  .three-row-grid {
+    display: grid;
+    grid-template-rows: 200px 35px 65px;
+    /* border: 2px solid green; */
+    /* width: 200px;
+    height: 200px; */
+  }
+  
+  .nested-boxes {
+    /* background-color: lightgreen; */
+    /* border: 2px dotted green; */
+
+
+  }
+  
+  .two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    /* border: 2px solid green; */
+    height: 50px;
+  }
+  
+  .logo-columns {
+    /* border: 2px solid white; */
+    /* background-color: pink; */
+  }
+  
+  .three-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 25px 25px;
+    /* border: 2px dotted blue; */
+    height: 25px;
+  }
+  
+  .icons {
+    /* background-color: lightblue; */
+    /* border: 2px solid darkgreen; */
+  }
+
+  .center {
+      display: grid;
+      /* align-items: center; */
+  }
+
+  .small-icons {
+    position: relative;
+    bottom: 8px;
+    left: 1px;
+  }
+
+  .logo {
+    position: absolute;
+    left: 160px;
+    top: 15px;
+    /* bottom: 200px; */
+    /* z-index: 900; */
+    width: 45px;
+    border-radius: 50%;
+  }
+
+  .laptop {
+    display: grid;
+    width: 100%;
+    
+    /* position: relative;
+    right: 5px; */
+    /* z-index: 950; */
+    overflow: hidden;
+  }
+
+  .nested-boxes-description {
+    /* background-color: lightgreen; */
+    /* border: 2px dotted green; */
+padding: 5px;
+align-items: center;
+
+  } 
+
